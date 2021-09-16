@@ -1,3 +1,3 @@
-#! /bin/bash
-echo 'Hello world!' >> ~/hello.sh
-cat ~/hello.sh
+#!/bin/bash
+echo "Hello World!"
+cp hello.sh Desktop
