@@ -1,7 +1,7 @@
 import math
 from abc import ABC, abstractmethod
 
-class Base:
+class Base(ABC):
 
     @abstractmethod
     def get_answer(self):
