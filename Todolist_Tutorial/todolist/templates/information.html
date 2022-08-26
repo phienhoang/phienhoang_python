@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} PersonalPage {% endblock %}
+
+{% block content %}
+<h3 align="center"> Personal Page </h3>
+<div class="form-group">
+    <label>ID: {{user.id}}</label>
+</div>
+<div class="form-group">
+    <label>Email: {{user.email}}</label>
+</div>
+<div class="form-group">
+    <label>User name: {{user.user_name}}</label>
+</div>
+<a href="/changepassword">Change Password</a>
+<div class="form-group">
+    <a href="/">Back</a>
+</div>
+{% endblock %}
